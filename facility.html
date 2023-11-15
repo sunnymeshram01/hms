@@ -27,12 +27,14 @@
       rel="stylesheet"
       href="assets/plugins/font-awesome/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
     <script
       type="text/javascript"
       src="assets/plugins/jquery/jquery.min.js"
     ></script>
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
@@ -69,7 +71,12 @@
                 <img src="/assets/img/logo/bars.png" width="20" height="20" />
               </button>
 
-              <div class="navbar-brand">
+              <div
+                data-aos="fade-right"
+                data-aos-once="true"
+                data-aos-offset="300"
+                class="navbar-brand"
+              >
                 <a href="index.html">
                   <img
                     src="assets/img/logo/logo_white.png"
@@ -79,76 +86,107 @@
                 </a>
               </div>
             </div>
-            <!--/end responsive container-->
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div
               class="desktop-navbar collapse navbar-collapse navbar-responsive-collapse"
             >
               <div class="res-container">
                 <ul class="nav navbar-nav">
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-
-                  <!-- Home  -->
-                  <li class="mega-menu-fullwidth">
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="0"
+                    class="mega-menu-fullwidth"
+                  >
                     <a href="index.html"> HOME </a>
                   </li>
-                  <!-- End Home-->
-
-                  <!-- About Us -->
-                  <li class="mega-menu-fullwidth">
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="50"
+                    class="mega-menu-fullwidth"
+                  >
                     <a href="about.html"> ABOUT US </a>
                   </li>
-                  <!-- End About us -->
-
-                  <!-- Doctors -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="doctors.html"> DOCTORS </a>
-                  </li>
-                  <!-- End Doctors -->
-
-                  <!-- Gallery -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="gallery.html"> GALLERY </a>
-                  </li>
-                  <!-- End Gallery -->
-
-                  <!-- Blog -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="blog.html"> BLOGS </a>
-                  </li>
-                  <!-- End Blog -->
-
-                  <!-- Contact Us -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="contact.html"> CONTACT US </a>
-                  </li>
-                  <!-- End Contact us -->
-
-                  <!-- Registration -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="registration.html"> REGISTRATION </a>
-                  </li>
-                  <!-- End registration -->
-
-                  <!-- login -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="login.html"> LOGIN </a>
-                  </li>
-                  <!-- End login -->
-                  <li class="mega-menu-fullwidth">
-                    <a href="appointment.html"> BOOK APPOINTMENT </a>
-                  </li>
-                  <li class="mega-menu-fullwidth">
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="100"
+                    class="mega-menu-fullwidth"
+                  >
                     <a href="why-choose.html"> WHY TO CHOOSE </a>
                   </li>
-                  <li class="mega-menu-fullwidth">
-                    <a href="payment.html"> PAYMENT </a>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="150"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="doctors.html"> DOCTORS </a>
                   </li>
-                  <li class="mega-menu-fullwidth">
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="200"
+                    class="mega-menu-fullwidth"
+                  >
                     <a href="facility.html"> FACILITY </a>
                   </li>
-                  <!-- End Appointment -->
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="250"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="gallery.html"> GALLERY </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="300"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="blog.html"> BLOGS </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="350"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="appointment.html"> BOOK APPOINTMENT </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="400"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="contact.html"> CONTACT US </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="450"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="payment.html"> PAYMENT </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="500"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="registration.html"> REGISTRATION </a>
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-once="true"
+                    data-aos-delay="550"
+                    class="mega-menu-fullwidth"
+                  >
+                    <a href="login.html"> LOGIN </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -168,52 +206,22 @@
             "
           >
             <a style="color: white" href="index.html"> HOME </a>
-            <!-- End Home-->
-
-            <!-- About Us -->
             <a style="color: white" href="about.html"> ABOUT US </a>
-            <!-- End About us -->
-
-            <!-- Doctors -->
+            <a style="color: white" href="why-choose.html"> WHY TO CHOOSE </a>
             <a style="color: white" href="doctors.html"> DOCTORS </a>
-            <!-- End Doctors -->
-
-            <!-- Gallery -->
+            <a style="color: white" href="facility.html"> FACILITY </a>
             <a style="color: white" href="gallery.html"> GALLERY </a>
-            <!-- End Gallery -->
-
-            <!-- Blog -->
             <a style="color: white" href="blog.html"> BLOGS </a>
-            <!-- End Blog -->
-
-            <!-- Contact Us -->
-            <a style="color: white" href="contact.html"> CONTACT US </a>
-            <!-- End Contact us -->
-
-            <!-- Registration -->
-            <a style="color: white" href="registration.html"> REGISTRATION </a>
-            <!-- End registration -->
-
-            <!-- login -->
-            <a style="color: white" href="login.html"> LOGIN </a>
-            <!-- End login -->
-
-            <!-- Appointment -->
             <a style="color: white" href="appointment.html">
               BOOK APPOINTMENT
             </a>
-            <!-- Appointment -->
-            <a style="color: white" href="why-choose.html"> WHY TO CHOOSE </a>
+            <a style="color: white" href="contact.html"> CONTACT US </a>
             <a style="color: white" href="payment.html"> PAYMENT </a>
-            <a style="color: white" href="facility.html"> FACILITY </a>
+            <a style="color: white" href="registration.html"> REGISTRATION </a>
+            <a style="color: white" href="login.html"> LOGIN </a>
           </div>
         </div>
       </div>
-      <!-- End Navbar -->
-
-      <!-- title -->
-
-      <!--  title  -->
 
       <div class="container" style="padding: 50px 0px">
         <div style="text-align: center; margin-top: 50px">
@@ -224,7 +232,12 @@
           comfortable and convenient.
         </p>
         <div class="row">
-          <div class="col-md-4">
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-offset="300"
+            class="col-md-4"
+          >
             <div
               class="card"
               style="
@@ -252,7 +265,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="50"
+            data-aos-offset="300"
+            class="col-md-4"
+          >
             <div
               class="card"
               style="
@@ -280,7 +299,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-delay="100"
+            data-aos-offset="300"
+            class="col-md-4"
+          >
             <div
               class="card"
               style="
@@ -512,5 +537,8 @@
       type="text/javascript"
       src="assets/plugins/jquery/validation.js"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
