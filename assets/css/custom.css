@@ -765,3 +765,23 @@ h6 i {
 .successBox {
   display: none;
 }
+.hoverCard {
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.zoomEffect {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.zoomEffect,
+.hoverCard {
+  transition: 0.3s all;
+}
+.hoverCard:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.zoomEffect:hover {
+  scale: 1.1;
+}
